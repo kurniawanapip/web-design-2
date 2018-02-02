@@ -1,0 +1,110 @@
+*{margin : 0px auto;}
+
+body {
+	background: url('images/background.jpg');
+}
+.kotak {
+	width : 80%;
+	padding : 2%;
+	background-color: white;
+}
+
+/* header */
+.header {
+	height: 65px;
+	overflow: hidden;
+}
+.header1 {
+	float: left;
+}
+.header2 {
+	float: right;
+}
+/* akhir header */
+
+
+/* tab */
+.tab {
+	height : 40px;
+	overflow: hidden;
+}
+.port a, .about a, .blog a, .home a, .contact a {
+	background-color: #003399;
+	height: 20px;
+	width: 18%;
+	float: left;
+	text-align: center;
+	padding: 1%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.port a:hover, .about a:hover, .blog a:hover, .home a:hover, .contact a:hover {
+	background-color : #99bbff;
+    font-weight: bold;
+}
+/* akhir tab */
+
+
+/* iklan */
+.iklan {
+	margin-top: 1%;
+	width: 95%;
+	background-color: #D2D2D2;
+	border-style: dotted;
+	padding: 2%; 
+}
+.iklan p {
+	font-size: 30px;
+	text-align: center;
+}
+/* akhir iklan */
+
+
+/* konten */
+.konten {
+	overflow : hidden;
+}
+.isi1 {
+	width : 65%;
+	float : left;
+	padding: 1%;
+}
+.dua {
+	color: #737373;
+}
+p {
+	text-align : justify;
+}
+.isi2 {
+	background : #D2D2D2;
+	width : 27%;
+	float : right;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.artikel {
+	width: 85%; 
+	padding-top: 3%;
+}
+.artikel1 {
+	background-color : #333333;
+	border-radius: 5px;
+}
+.artikel1 p {
+	text-align: center;
+	color: white;
+}
+/* akhir konten */
+
+
+/* footer */
+.footer {
+	background-color: #003399;
+	padding: 2%;
+}
+.footer p {
+	text-align: center;
+	color: white;
+}
+/* akhir footer */
